@@ -1,0 +1,20 @@
+<div style="display: block;height:100%;">
+    <app-navigation></app-navigation>
+    <div class="left-sidebar">
+        <div class="left-sidebar__wrapper">
+            <div class="left-sidebar__spacer"></div>
+            <div class="left-sidebar__content">
+                <app-user-card [cardData]="localStorage.get('user')"></app-user-card>
+                <app-sidebar-menu [menuItemList]="sidebarMenu"></app-sidebar-menu>
+
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content--title">
+            <app-breadcrumb></app-breadcrumb>
+            <hr>
+        </div>
+        <router-outlet></router-outlet>
+    </div>
+</div>

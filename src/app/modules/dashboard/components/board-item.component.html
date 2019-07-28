@@ -1,0 +1,4 @@
+<div class="content--item" *ngFor="let boardItem of dashboardList" routerLink="{{boardItem?.Url}}">
+    <i class="{{boardItem?.Icon}}"></i>
+    <span>{{boardItem?.Title}}</span>
+</div>

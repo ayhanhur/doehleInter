@@ -12,7 +12,7 @@
         Open terminal  
         <ol>
         <li>
-            Start JSON Mock Server  `npm run mock:server`
+            Start JSON Mock Server  `npm run mock:server` :
         </li> 
         </ol>
     </li>
